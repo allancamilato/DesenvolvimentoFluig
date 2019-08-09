@@ -1,0 +1,15 @@
+application.type=widget
+application.code=Selecao_Cor
+application.title=Selecao_Cor
+application.description=Selecao_Cor
+application.category=SYSTEM
+application.renderer=freemarker
+developer.code=SPON10113294
+developer.name=rodrigo.more
+developer.url=http://www.fluig.com
+application.uiwidget=true
+application.mobileapp=true
+view.file=view.ftl
+edit.file=edit.ftl
+application.resource.js.1=/resources/js/Selecao_Cor.js
+application.resource.component.1=fluigcolorpicker
