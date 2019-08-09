@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.dm.ecm.technology.totvs.com/">
+<soapenv:Header/>
+<soapenv:Body>
+   <ws:create>
+      <companyId>001</companyId>
+      <username>admin</username>
+      <password>admin</password>
+      <card>
+         <item>
+            <additionalComments>Criado via Página Pública</additionalComments>
+            <cardData>
+               <field>nome</field>
+               <value name="nome"></value>
+            </cardData>
+            <cardData>
+               <field>email</field>
+               <value name="email"></value>
+            </cardData>
+            <cardData>
+               <field>perfil</field>
+               <value name="perfil"></value>
+            </cardData>
+            <cardData>
+               <field>linkedin</field>
+               <value name="linkedin"></value>
+            </cardData>
+            <colleagueId>admin</colleagueId>
+            <documentDescription>Currículo Enviado</documentDescription>
+            <parentDocumentId>42</parentDocumentId>
+         </item>
+      </card>
+   </ws:create>
+</soapenv:Body>
+</soapenv:Envelope>
